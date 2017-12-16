@@ -38,7 +38,11 @@ int main()
         cout << "wczytano wiecej malych liter (" << ilosc_malych << "), niz cyfr ("<< ilosc_cyfr << ")"<< endl;
     }
 
-    cout << "ilosc powtorzen znaku && bezposrednie po sobie wynosi: " << powtorzenie << endl;
+    if (ilosc_cyfr == ilosc_malych)
+    {
+        cout << "wczytano tyle samo malych liter (" << ilosc_malych << "), ile cyfr ("<< ilosc_cyfr << ")"<< endl;
+    }
+    cout << "ilosc powtorzen znaku && bezposrednio po sobie wynosi: " << powtorzenie << endl;
 
     system("PAUSE");
 
