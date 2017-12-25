@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Podaj ciag znakow konczacy sie kropka lub wykrzyknikiem" << endl;
+    cout << "Podaj ciag znakow, konczacy sie kropka lub wykrzyknikiem" << endl;
     char zn, zn_poprzedni;
     int ilosc_malych = 0, ilosc_cyfr = 0, powtorzenie = 0;
 
